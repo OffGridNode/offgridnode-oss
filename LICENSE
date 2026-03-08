@@ -1,0 +1,10 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+This repository contains the source code for GPL-licensed components
+shipped on OffGridNode devices. See individual subdirectories for
+specific component sources and their respective licenses.
