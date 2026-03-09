@@ -1,0 +1,26 @@
+# Force LF line endings for all text files in the repo.
+# This overrides core.autocrlf and prevents Windows from injecting CRLF.
+* text=auto eol=lf
+
+# Explicitly mark binary files to prevent git from mangling them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.zim binary
+
+# Shell scripts — always LF
+*.sh text eol=lf diff=bash
+
+# Kernel / OS config files — always LF
+*.conf text eol=lf
+*.service text eol=lf
